@@ -6,7 +6,9 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready( function(){
-});
+	$("#tab-menu li a").on("click", function(e){
+		e.preventDefault();
+	});
 </script>
 <style type="text/css">
 *, *:after, *:before {
